@@ -12,7 +12,7 @@ public class HelloWorld extends HttpServlet {
         // Now obtain a PrintWriter to insert HTML into
         PrintWriter out = res.getWriter();
         out.println("<html><head><title>" +
-                "Hello World!</title></head>");
+                "Hello World?</title></head>");
         out.println("<body><h1>Hello World!</h1></body></html>");
     }
 }
