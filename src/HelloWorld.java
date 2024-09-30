@@ -10,7 +10,7 @@ public class HelloWorld extends HttpServlet {
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
         out.println("<html><head><title>" +
-                "Hello World?</title></head>");
-        out.println("<body><h1>Hello World?</h1></body></html>");
+                "Hello World!</title></head>");
+        out.println("<body><h1>Hello World!</h1></body></html>");
     }
 }
